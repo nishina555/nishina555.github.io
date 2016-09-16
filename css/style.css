@@ -1,0 +1,43 @@
+body {
+  padding-top: 70px;
+}
+
+#header {
+    background-color: #FF0000;
+}
+
+#aboutme {
+    background-color: #008000;
+}
+
+#carrer {
+    background-color: #0000FF;
+}
+
+#skills {
+    background-color: #FF0000;
+}
+
+#works {
+    background-color: #008000;
+}
+
+#talks {
+    background-color: #0000FF;
+}
+
+#hobbies {
+    background-color: #FF0000;
+}
+
+#books {
+    background-color: #008000;
+}
+
+#accounts {
+    background-color: #0000FF;
+}
+
+#footer {
+    background-color: #FF0000;
+}
