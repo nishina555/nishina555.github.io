@@ -8,6 +8,12 @@ i {
   padding: 0 10px;
 }
 
+footer {
+  font-size: 1.5rem;
+  color: Gray;
+  padding-bottom: 250px;
+}
+
 .heading {
   position: relative;
   display: inline-block;
@@ -16,6 +22,34 @@ i {
   letter-spacing: 2px;
   font-size: 4rem;
 }
+
+.carrer-text {
+  text-align: left;
+  /*background-color: blue;*/
+}
+
+.product-icon {
+  border: 1px black solid;
+
+}
+
+.product-icon:hover {
+  opacity: 0.5;
+  cursor : pointer;
+}
+
+
+.product-box {
+  /*text-decoration: underline;*/
+  text-align: left;
+}
+
+.product-box > p{
+  border-bottom: solid #ccc 1px;
+  padding: 16px 8px;
+
+}
+
 .hobbies-wrapper {
   /*table-layout:fixed;*/
   display: flex;
@@ -23,7 +57,7 @@ i {
   /*margin:50px auto 0;*/
 }
 
-.hobbies-text {
+.hobby-text {
   /*background-color: red;*/
   padding: 5px 0 30px;
   text-align: left;
@@ -34,7 +68,8 @@ i {
   background-color: #CCFFFF;
   margin-top: -30px;
   padding: 30px 30px 80px;
-  /*padding-topとmargin-topで相殺すれば、navがtopに固定されてても頭出しがうまくいく*/
+  /*padding-topとmargin-topで相殺すれば、navがtopに固定されてても頭出しがうまくいく。
+  今回は30pxで相殺している*/
 }
 
 #aboutme-text{
@@ -51,31 +86,40 @@ i {
 }
 #skills {
   background-color: #FF99CC;
-  padding: 15px 30px 80px;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
 
 }
 #products {
   background-color: #CCFFFF;
-  padding: 15px 30px 80px;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
 }
-#talks {
+
+#portfolio-detail {
+  display: none;
+  background-color: #EEEEEE;
+  padding: 45px 30px 80px;
+}
+/*#talks {
   background-color: #FFFFEE;
-  padding: 15px 30px 80px;
-}
+  margin-top: -30px;
+  padding: 45px 30px 80px;
+}*/
 
 #hobbies {
-  background-color: #FF99CC;
-  padding: 15px 30px 80px;
+  background-color: #FFFFEE;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
 
 }
-#books {
+/*#books {
   background-color: #CCFFFF;
-  padding: 15px 30px 80px;
-}
+  margin-top: -30px;
+  padding: 45px 30px 80px;
+}*/
 #accounts {
-  background-color: #FFFFEE;
-  padding: 15px 30px 80px;
-}
-#footer {
-  background-color: #FF0000;
+  background-color: #FF99CC;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
 }

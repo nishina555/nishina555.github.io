@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="js/jquery.SmoothScroll.js"></script> -->
+  <script type="text/javascript" src="js/my.js"></script>
 </head>
 
 <body>
@@ -28,9 +30,9 @@
           <li><a href="#carrer">Carrer</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#products">Products</a></li>
-          <li><a href="#talks">Talks</a></li>
+          <!-- <li><a href="#talks">Talks</a></li> -->
           <li><a href="#hobbies">Hobbies</a></li>
-          <li><a href="#books">Books</a></li>
+          <!-- <li><a href="#books">Books</a></li> -->
           <li><a href="#accounts">Accounts</a></li>
         </ul>
       </div>
@@ -40,84 +42,101 @@
   <section id="aboutme">
     <h2 class="heading"><i class="fa fa-user" aria-hidden="true"></i>About Me</h2>
     <div class="row">
-      <div class="col col-md-3">
+      <div class="col col-md-offset-1 col-md-2">
         <img class="profile" src="./imgs/profile.png">
       </div>
       <div class="col col-md-9">
-        <p id="aboutme-text">My name is Toshiharu Nishina.学生時代にはNLPの研究をしていました。社会人になってからはJavaをメインにエンジニアとして働いています。</p>
+        <p id="aboutme-text">Nishina Toshiharuと申します。1989年生まれです。
+          <br>バックエンドの開発を主に仕事では扱っていますが、運用自動化などのいわゆるDevOps的な開発や、dockerやansibleを利用したIaCなどにも興味があり個人的に勉強しています。
+          <br>開発スキルを持ち合わせながら、さらにシステムの全体像を把握して最適な設計を提案できるようなエンジニアになれるよう日々がんばっています。
+          <br>プログラミング以外のことに関しては、剣道を小学校1年生から大学までやっていました。中学では団体戦で東京都3位に入賞したことがあります。高校時代には部長を務めました。
       </div>
     </div>
   </section>
   <section id="carrer">
     <h2><i class="fa fa-building" aria-hidden="true"></i>Carrer</h2>
-    <p>2012~2014 </p>
-    <p>2014~ Rakuten</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2 carrer-text">
+          <p><strong>2008年 - 2012年:</strong> 明治大学で電力系統に関する研究をしていました。使用言語はFortranです。</p>
+          <p><strong>2012年 - 2014年:</strong> 東京大学大学院でNLP(自然言語処理)の研究をしていました。コンピューターサイエンスの修士号を取得しました。使用言語はPythonです。</p>
+          <p><strong>2014年 - 現在:</strong> 楽天株式会社に勤務しています。主にJavaをメインに扱うエンジニアとして仕事をしています。Java以外にはPL/SQLなどを扱っています。</p>
+        </div>
+      </div>
+    </div>
   </section>
   <section id="skills">
     <h2><i class="fa fa-pencil" aria-hidden="true"></i>Skills</h2>
-    <p>Java</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2 carrer-text">
+          <p><strong>Java: </strong>Spring bootを利用した開発をメインにやっています。画面のあるアプリケーションに関してはthymeleafを利用して開発を行います。</p>
+        </div>
+      </div>
+    </div>
   </section>
   <section id="products">
     <h2><i class="fa fa-picture-o" aria-hidden="true"></i>Products</h2>
-    <a href="https://toshi247.github.io" target="_blank">Portfolio page</a>
+    <p>自分の作品集です。画像をクリックすることで詳細をご覧いただけます。</p>
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-offset-4 col-md-4 col-xs-12">
+          <img class="product-icon" id="portfolio" src="./imgs/portfolio.png" width="150" height="150"><p>Portfolio</p>
+        </div>
+      </div>
+    </div>
   </section>
-  <section id="talks">
+  <section id="portfolio-detail">
+    <h2>Portfolioの詳細</h2>
+      <div class="product-box col col-md-offset-1">
+        <p><strong>URL:</strong> <a href="https://github.com/toshi247/toshi247.github.io" target="_blank">https://github.com/toshi247/toshi247.github.io</a></p>
+        <p><strong>説明:</strong> 自分のポートフォリオです。レスポンシブデザインで作成されています。</p>
+        <p><strong>使用した技術など:</strong> HTML5, CSS3, jQueryを主に利用しています。サイトの雛形はBootstrapのグリッドシステムを利用して作成しました。</p>
+      </div>
+  </section>
+  <!-- <section id="talks">
     <h2><i class="fa fa-commenting-o" aria-hidden="true"></i>Talks</h2>
     <p></p>
-  </section>
+  </section> -->
   <section id="hobbies">
     <h2><i class="fa fa-heart-o" aria-hidden="true"></i>Hobbies</h2>
-      <div class="container">
-        <div class="row hobbies-wrapper">
-          <div class="col col-md-4 col-xs-12 hobbies-box">
-            <img class="hobby-icon" src="./imgs/muscle.png" width="150" height="150">
-            <p>Work out</p>
-            <p class="hobbies-text">I love working out. Basically, I go to the gym everyday.</p>
-          </div>
-          <div class="col col-md-4 col-xs-12 hobbies-box">
-            <img class="hobby-icon" src="./imgs/muscle.png" width="150" height="150">
-            <p>筋トレ</p>
-            <p class="hobbies-text">筋トレが好きです。基本的に毎日ジムに行っています。ベンチプレス100Kgあげるのが目標です！</p>
-          </div>
-          <div class="col col-md-4 col-xs-12 hobbies-box">
-            <img class="hobby-icon" src="./imgs/muscle.png" width="150" height="150">
-            <p>筋トレ</p>
-            <p class="hobbies-text">筋トレが好きです</p>
-          </div>
-        </div><!-- /.container -->
+    <div class="container">
+      <div class="row hobbies-wrapper">
+        <div class="col col-md-4 col-xs-12 hobbies-box">
+          <img class="hobby-icon" src="./imgs/muscle.png" width="150" height="150">
+          <p>筋トレ</p>
+          <p class="hobby-text">筋トレが好きです。1回につき30分程度の短いトレーニングですが、基本的に毎日ジムに行くようにしています。ベンチプレス100Kgあげるのが目標です！</p>
+        </div>
+        <div class="col col-md-4 col-xs-12 hobbies-box">
+          <img class="hobby-icon" src="./imgs/conversation.png" width="150" height="150">
+          <p>英語</p>
+          <p class="hobby-text">仕事柄英語を使う機会があるということもあり、Skypeを使った英会話やフレンズという海外ドラマの視聴をよくしています。今では趣味の1つとなっています。</p>
+        </div>
+        <div class="col col-md-4 col-xs-12 hobbies-box">
+          <img class="hobby-icon" src="./imgs/food.png" width="150" height="150">
+          <p>食べ歩き</p>
+          <p class="hobby-text">食べログなどを参考にお店を開拓していくのが楽しみです。好き嫌いはないので色々なジャンルに挑戦しています。</p>
+        </div>
       </div>
-      <div class="container">
-        <div class="row hobbies-wrapper">
-          <div class="col col-md-4 col-xs-12 hobbies-box">
-            <img class="hobby-icon" src="./imgs/muscle.png" width="150" height="150">
-            <p>Work out</p>
-            <p class="hobbies-text">I love working out. Basically, I go to the gym everyday.</p>
-          </div>
-          <div class="col col-md-4 col-xs-12 hobbies-box">
-            <img class="hobby-icon" src="./imgs/muscle.png" width="150" height="150">
-            <p>筋トレ</p>
-            <p class="hobbies-text">筋トレが好きです。基本的に毎日ジムに行っています。</p>
-          </div>
-          <div class="col col-md-4 col-xs-12 hobbies-box">
-            <img class="hobby-icon" src="./imgs/muscle.png" width="150" height="150">
-            <p>筋トレ</p>
-            <p class="hobbies-text">筋トレが好きです</p>
-          </div>
-        </div><!-- /.container -->
-      </div>
-
+    </div><!-- /.container -->
   </section>
-  <section id="books">
+  <!-- <section id="books">
     <h2><i class="fa fa-book" aria-hidden="true"></i>Favorite books</h2>
     <p>はじめてのSpring Boot</p>
-  </section>
+  </section> -->
   <section id="accounts">
     <h2><i class="fa fa-link" aria-hidden="true"></i>Links and accounts</h2>
-    <p>github @toshi247</p>
+    <a href="https://github.com/toshi247" target="_blank">
+      <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.facebook.com/toshiharu.nishina" target="_blank">
+      <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/toshiharu-nishina" target="_blank">
+      <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+    </a>
   </section>
-  <footer>
-    <p>this is created by Toshiharu Nishina.
-    </p>
+  <footer>© 2016 Toshiharu Nishina
     <footer>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
