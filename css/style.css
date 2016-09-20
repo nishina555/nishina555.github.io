@@ -1,39 +1,125 @@
 body {
-  padding-top: 70px;
+  font-size: 2.0rem;
+  text-align: center;
+  font-family: -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
+  padding-top: 50px;
+}
+i {
+  padding: 0 10px;
 }
 
-/*#aboutme {
-    background-color: #008000;
+footer {
+  font-size: 1.5rem;
+  color: Gray;
+  padding-bottom: 250px;
+}
+
+.heading {
+  position: relative;
+  display: inline-block;
+  margin: 30px 0 15px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+
+.carrer-text {
+  text-align: left;
+  /*background-color: blue;*/
+}
+
+.product-icon {
+  border: 1px black solid;
+
+}
+
+.product-icon:hover {
+  opacity: 0.5;
+  cursor : pointer;
+}
+
+
+.product-box {
+  /*text-decoration: underline;*/
+  text-align: left;
+}
+
+.product-box > p{
+  border-bottom: solid #ccc 1px;
+  padding: 16px 8px;
+
+}
+
+.hobbies-wrapper {
+  /*table-layout:fixed;*/
+  display: flex;
+  flex-wrap: wrap;
+  /*margin:50px auto 0;*/
+}
+
+.hobby-text {
+  /*background-color: red;*/
+  padding: 5px 0 30px;
+  text-align: left;
+  /*padding-bottom:30px;*/
+}
+
+#aboutme {
+  background-color: #CCFFFF;
+  margin-top: -30px;
+  padding: 30px 30px 80px;
+  /*padding-topとmargin-topで相殺すれば、navがtopに固定されてても頭出しがうまくいく。
+  今回は30pxで相殺している*/
+}
+
+#aboutme-text{
+  /*background-color: #FF0000;*/
+  position: relative;
+  text-align: left;
+  padding: 0 10px;
 }
 
 #carrer {
-    background-color: #0000FF;
+  background-color: #FFFFEE;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
 }
-
 #skills {
-    background-color: #FF0000;
+  background-color: #FF99CC;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
+
+}
+#products {
+  background-color: #CCFFFF;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
 }
 
-#works {
-    background-color: #008000;
+#portfolio-detail {
+  display: none;
+  background-color: #EEEEEE;
+  padding: 45px 30px 80px;
 }
-
-#talks {
-    background-color: #0000FF;
-}
+/*#talks {
+  background-color: #FFFFEE;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
+}*/
 
 #hobbies {
-    background-color: #FF0000;
-}
+  background-color: #FFFFEE;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
 
-#books {
-    background-color: #008000;
 }
-
-#accounts {
-    background-color: #0000FF;
-}
-
-#footer {
-    background-color: #FF0000;
+/*#books {
+  background-color: #CCFFFF;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
 }*/
+#accounts {
+  background-color: #FF99CC;
+  margin-top: -30px;
+  padding: 45px 30px 80px;
+}
