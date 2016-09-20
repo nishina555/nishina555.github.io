@@ -17,11 +17,19 @@ i {
   font-size: 4rem;
 }
 .hobbies-wrapper {
-  table-layout:fixed;
-  display: table;
-  margin:50px auto 0;
-  width:80%;
+  /*table-layout:fixed;*/
+  display: flex;
+  flex-wrap: wrap;
+  /*margin:50px auto 0;*/
 }
+
+.hobbies-text {
+  /*background-color: red;*/
+  padding: 5px 0 30px;
+  text-align: left;
+  /*padding-bottom:30px;*/
+}
+
 #aboutme {
   background-color: #CCFFFF;
   margin-top: -30px;
