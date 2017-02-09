@@ -96,7 +96,7 @@ footer {
   padding: 45px 30px 80px;
 }
 
-#portfolio-detail {
+#portfolio-detail, #blogmanage-detail {
   display: none;
   background-color: #EEEEEE;
   padding: 45px 30px 80px;

@@ -10,6 +10,12 @@ $(function() {
     });
 });
 
+$(function() {
+    $("#blogmanage").click(function(){
+        $("#blogmanage-detail").toggle("200");
+    });
+});
+
 $(function(){
    // #で始まるアンカーをクリックした場合に処理
    $('a[href^=#]').click(function() {
